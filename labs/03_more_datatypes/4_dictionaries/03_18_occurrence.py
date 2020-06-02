@@ -6,3 +6,9 @@ user_input = "hello"
 result = {"h": 1, "e": 1, "l": 2, "o": 1}
 
 '''
+word = input("type a word: ")
+result = {}
+for letter in word:
+    result[letter] = word.count(letter)
+
+print(result)
